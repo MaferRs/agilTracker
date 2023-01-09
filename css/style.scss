@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    
+    
+}
+body{ 
+    width: 100vw;
+   background: -webkit-gradient(linear, left center, left bottom, from(#F8CA25), to(#f3da80)) fixed;
+}
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+         .logo{
+        width:250px;
+        margin: 20px;
+         }
+         .link-instagram{
+            position: relative;
+            z-index: 2;
+            bottom:280px;
+            right: 12px;
+            font-size: 0.9em;
+            font-weight: 600;
+         }
+        .imagem-principal{
+        width: 310px;
+         }
+           .group-button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .button{
+             display:flex;
+            align-items: center;
+            justify-content: center;
+           gap: 10px;
+            width: 238.24px;
+            height: 51.63px;
+            background: #3A55F6;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+            border-radius: 25px;
+            border: none;
+            margin: 12px;
+            color: white;
+            font-weight: 600;
+            font-size: 1em;
+            
+            .icon{
+                width: 24px;
+            }
+            
+        }
+
+    }
+    .footer{
+        text-align: center;
+        height: 30px;
+         margin-bottom: 30px;
+       a{
+         color:black;
+         text-decoration: none;
+
+         p{
+            font-weight: 600;
+            font-size: 14px;
+            margin-top: 50px;
+           
+            font-style: italic;
+
+         }
+       } 
+    }
+ 
+  
