@@ -1,3 +1,4 @@
+
 dialog{
   background: none;
   border:none;
@@ -5,13 +6,18 @@ dialog{
     .close{
         display: flex;
         justify-content: right;
-
-    .icon-close{
+        .button-close{
+            background: none;
+            border: none;
+            cursor: pointer;
+        .icon-close{
         width:32px;
         padding-top: 10px;
     }
+        }
+  
  }
-  .card-modal{
+.card-modal{
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -19,22 +25,31 @@ dialog{
 .informacoes{
     width: 420px;
     background-color:#3A55F6;
-    height: 300px;
+    height: 250px;
     color: white;
     border-radius: 12px;
     padding: 2em 2em 2em;
     text-align:center;
     font-size: 1em;
+        }   
+
+    }
+    .sessao-vantagens{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
     
- }
-  
- }
- 
+    .texto-vantagens{
+         margin-top: 60px;
+         
+         
+        .img-vantagens{
+            width: 40px;
+            margin-right: 20px;
+            
+        }
+    }
     
 }
-
-   
-
-
-
- 
+}
