@@ -10,3 +10,6 @@ buttonClose.onclick = function () {
     modal.close()
 }
 
+    < script >
+    AOS.init();
+</script >

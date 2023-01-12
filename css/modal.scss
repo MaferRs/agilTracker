@@ -13,7 +13,7 @@ dialog{
             border: none;
             cursor: pointer;
         .icon-close{
-        width:32px;
+        width:35px;
         padding-top: 6px;
     }
         }
@@ -30,16 +30,18 @@ dialog{
     height: 250px;
     color: white;
     border-radius: 12px;
-    padding: 2em 2em 2em;
+    padding: 1.5em 1.5em 1.5em;
     text-align:center;
-    font-size: 1em;
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
 
          @media(min-width: 320px) {
-            display: flex;
-            justify-content: center;
-            width: 350px;
-            height: 310px;
-            margin-bottom:  10px;
+            width: 330px;
+            height:380px;
+            margin-bottom: 8px;
+          
       
         }   
 
