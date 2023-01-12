@@ -1,5 +1,12 @@
-const buttonAbout = document.querySelector(".buttonAbout")
+const button = document.querySelector(".buttonAbout")
+const modal = document.querySelector("dialog")
+const buttonClose = document.querySelector("dialog .button-close")
 
-const apareceModal = () => {
-
+button.onclick = function () {
+    modal.showModal()
 }
+
+buttonClose.onclick = function () {
+    modal.close()
+}
+

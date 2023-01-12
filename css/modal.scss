@@ -1,8 +1,10 @@
 
+
 dialog{
   background: none;
   border:none;
   width: 100%;
+
     .close{
         display: flex;
         justify-content: right;
@@ -12,7 +14,7 @@ dialog{
             cursor: pointer;
         .icon-close{
         width:32px;
-        padding-top: 10px;
+        padding-top: 6px;
     }
         }
   
@@ -31,25 +33,43 @@ dialog{
     padding: 2em 2em 2em;
     text-align:center;
     font-size: 1em;
+
+         @media(min-width: 320px) {
+            display: flex;
+            justify-content: center;
+            width: 350px;
+            height: 310px;
+            margin-bottom:  10px;
+      
         }   
 
     }
-    .sessao-vantagens{
+  
+}
+  .sessao-vantagens{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 30px;
     
+    
     .texto-vantagens{
-         margin-top: 60px;
+         margin-top: 30px;
+         font-size: 1em;
+         font-weight: 600;
          
          
         .img-vantagens{
             width: 40px;
             margin-right: 20px;
             
+            
         }
     }
     
 }
 }
+  dialog::backdrop{
+     background: -webkit-gradient(linear, left center, left bottom, from(#F8CA25), to(#f3da80)) fixed;
+     
+  }
