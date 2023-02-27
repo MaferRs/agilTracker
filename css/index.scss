@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter";
-    overflow-x: hidden;
+   
     
     
 }
@@ -16,7 +16,6 @@ a{
 
 .container{ 
     width: 100vw;
-  
     background: -webkit-gradient(linear, left center, left bottom, from(#F8CA25), to(#f3da80)) fixed;
     
         
@@ -71,7 +70,7 @@ a{
         .button:hover, .buttonAbout:hover{
           transform: scale(1.3);
           background-color: #697ff8;
-           transition: 1s ease;
+           transition: 0.3s ease;
            }
 
       
