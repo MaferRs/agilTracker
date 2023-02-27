@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgilTracker</title>
+
     <link rel="stylesheet" href="css/index.min.css">
     <link rel="stylesheet" href="css/modal.min.css">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
@@ -29,7 +30,7 @@
                 </a>
             </header>
             <div class="group-button">
-                <button class="buttonAbout">
+                <button data-aos="fade-left" class="buttonAbout">
                     <img class="icon" src="assets/computador-portatil (1).png"
                         alt="icone de um computador fazendo rastreamento ">
                     Sobre Nós
@@ -78,23 +79,23 @@
                 </div>
 
 
-                <button data-aos="fade-left" class="button">
+                <button data-aos="fade-right" class="button">
                     <img class="icon" src="assets/whatsapp (1).png" alt="icone whatsapp">
                     <a target="_self" href="https://wa.me/message/QG7F2WNK6X6CA1">
                         Whatsapp </a>
                 </button>
-                <button class="button">
+                <button data-aos="fade-left" class="button">
                     <img class="icon" src="assets/instagram (1).png" alt="icone instagram ">
                     <a target="_self" href="https://www.instagram.com/agil__tracker/">Instagram</a>
                 </button>
-                <button class="button">
+                <button data-aos="fade-right" class="button">
                     <img class="icon" src="assets/no-mundo-todo (1).png" alt="icone globo">
                     <a target="_self" href="http://www.agiltracker.com.br/">Visite o site</a></button>
             </div>
 
         </main>
         <footer class="footer">
-            <p>por Maria Fernanda</p>
+            <p class="footer_create">por Maria Fernanda</p>
             <a target="_self" class="minhas-redesSociais" href="https://www.linkedin.com/in/mafers/">
                 <img src="assets/linkedin (2).png" alt="linkedin">
             </a>
@@ -103,9 +104,9 @@
             </a>
         </footer>
     </div>
+    <script src=" https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/index.js""></script>
 
-    </script>
 </body>
 
 </html>
